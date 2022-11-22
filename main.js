@@ -8,3 +8,8 @@ testEl.addEventListener("click", function () {
     // blackScreenEl.classList.remove("d-none");
     // blackScreenEl.style.display = "block";
 });
+bodyEl.addEventListener("keypress", function (event) {
+    if (event.key === "Enter") blackScreenEl.requestFullscreen();
+    // blackScreenEl.classList.remove("d-none");
+    // blackScreenEl.style.display = "block";
+});
